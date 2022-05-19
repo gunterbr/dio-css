@@ -7,22 +7,41 @@
         <title>Desafio Dio Css Transitions</title>
     </head>
     <body>
-        <main class='main'>
-            <div class='container-autor'>
-                <h1>Josiel Almeida</h1>
-                <h2>Full Stack</h2>
-                <div class='contato-social'>
-                    <a href='#' target='_blanck'>Linkedin</a>
-                    <a href='#' target='_blanck'>Github</a>
+        <header class='header-wrapper'>
+            <div class='header'>
+                <div class='checkbox-container'>
+                    <div class='checkbox-wrapper'>
+                        <input type='checkbox' id='toggle'>
+                        <label class='checkbox' for='toggle'>
+                            <div class='trace'></div>
+                            <div class='trace'></div>
+                            <div class='trace'></div>
+                        </label>
+                        <div class="menu"></div>
+                        <nav class="menu-itens">
+                            <ul>
+                                <li><a href='#'>Home</a></li>
+                                <li><a href='#'>Sobre</a></li>
+                                <li><a href='#'>Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
-            <div class='container-chatbot'>
+            <h1>Josiel Almeida</h1>
+            <h2>Full Stack</h2>
+            <div class='contato-social'>
+                <a href='#' target='_blanck'>Linkedin</a>
+                <a href='#' target='_blanck'>Github</a>
+            </div>
+        </header>
+        <main class='main'>
                 <div class='chatbot'>
                     <div class="chatbot__loading"></div>
                     <div class="chatbot__loading"></div>
                     <div class="chatbot__loading"></div>
                 </div>
-            </div>
+            
         </main>
     </body>
 </html>
