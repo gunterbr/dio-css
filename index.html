@@ -4,44 +4,81 @@
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <link rel='stylesheet' href='css/style.css'>
-        <title>Desafio Dio Css Transitions</title>
+        <title>Dio: Desafio Css</title>
     </head>
     <body>
+        <span class='chatbot'>
+            <span class="chatbot__loading"></span>
+            <span class="chatbot__loading"></span>
+            <span class="chatbot__loading"></span>
+        </span>
         <header class='header-wrapper'>
-            <div class='header'>
-                <div class='checkbox-container'>
-                    <div class='checkbox-wrapper'>
+            <span class='header'>
+                <span class='checkbox-container'>
+                    <span class='checkbox-wrapper'>
                         <input type='checkbox' id='toggle'>
                         <label class='checkbox' for='toggle'>
-                            <div class='trace'></div>
-                            <div class='trace'></div>
-                            <div class='trace'></div>
+                            <span class='trace'></span>
+                            <span class='trace'></span>
+                            <span class='trace'></span>
                         </label>
-                        <div class="menu"></div>
-                        <nav class="menu-itens">
+                        <span class="menu"></span>
+                        <nav class="menu-items">
                             <ul>
                                 <li><a href='#'>Home</a></li>
                                 <li><a href='#'>Sobre</a></li>
                                 <li><a href='#'>Contato</a></li>
                             </ul>
                         </nav>
-                    </div>
-                </div>
-            </div>
-            <h1>Josiel Almeida</h1>
-            <h2>Full Stack</h2>
-            <div class='contato-social'>
+                    </span>
+                </span>
+            </span>
+            <span class="autor">
+                <h1>Josiel Almeida</h1>
+                <h2>Full Stack</h2>
+            </span>
+            <span class='contato-social'>
                 <a href='#' target='_blanck'>Linkedin</a>
                 <a href='#' target='_blanck'>Github</a>
-            </div>
+            </span>
         </header>
-        <main class='main'>
-                <div class='chatbot'>
-                    <div class="chatbot__loading"></div>
-                    <div class="chatbot__loading"></div>
-                    <div class="chatbot__loading"></div>
-                </div>
-            
+        <main class='container'>
+            <span class='card-container card-github'>
+                <span class='card-text'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui saepe explicabo sed fuga repudiandae! Provident mollitia rem itaque maiores reiciendis dolorem, temporibus vel officiis officia ut nisi nobis aut ex!
+                </span>
+                <span class='card'>
+                    <span class='card-wrapper'>
+                        <h2>Github</h2>
+                        <p>Meus projetos no Github</p>
+                    </span>
+                </span>
+            </span>
+            <span class='card-container card-linkedin'>
+                <span class='card'>
+                    <span class='card-wrapper'>
+                        <h2>Linkedin</h2>
+                        <p>Acompanhe minha carreira!</p>
+                    </span>
+                </span>
+                <span class='card-text'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui saepe explicabo sed fuga repudiandae! Provident mollitia rem itaque maiores reiciendis dolorem, temporibus vel officiis officia ut nisi nobis aut ex!
+                </span>
+            </span>
+            <span class='card-container card-instagram'>
+                <span class='card-text'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui saepe explicabo sed fuga repudiandae! Provident mollitia rem itaque maiores reiciendis dolorem, temporibus vel officiis officia ut nisi nobis aut ex!
+                </span>
+                <span class='card'>
+                    <span class='card-wrapper'>
+                        <h2>Instagram</h2>
+                        <p>Viva o hoje!</p>
+                    </span>
+                </span>
+            </span>
         </main>
+        <footer class='footer'>
+            Com amor, para DIO.
+        </footer>
     </body>
 </html>
